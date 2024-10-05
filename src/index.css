@@ -1,0 +1,13 @@
+.playingArena{
+  text-align: center;
+  background-color:#023047;
+  width:900px;
+  height:fit-content;
+  padding: 50px 0; 
+  margin: auto;
+  border-radius: 10px;
+}
+.playingArena > p{
+  font-size: 50px;
+  color: #FFB703;
+}

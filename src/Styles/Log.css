@@ -1,0 +1,20 @@
+.Log{
+    height: 60px;
+    font-size: 40px;
+    color:#023047;
+    animation:slide-in-from-left 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+.logContainer{
+    text-align: center;
+    display: inline;
+}
+@keyframes slide-in-from-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-30%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

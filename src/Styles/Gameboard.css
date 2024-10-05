@@ -1,0 +1,19 @@
+.playSquare{
+    width: 145px;
+    height:145px;
+    margin:10px;
+    background-color: #ccdbdc;
+    border-radius: 5px;
+    padding: 0;
+    color:#023047;
+    font: 900 70px cursive;
+
+
+}
+.Gameboard{
+    margin-top: 30px;
+    padding-inline-start: 0;
+}
+.row , .col {
+    display: inline;
+}
